@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import BlogDetail from './components/BlogDetail';
 import CourseDetail from './components/CourseDetail';
 import NotFound from './pages/NotFound';
+import BlogForm from './components/BlogForm';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
             <Route path="/home" element={<Home/>} />
             <Route path="/services" element={<Services />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogform" element={<BlogForm />} />
+
             <Route path="/blogs/:id" element={<BlogDetail />} />
             <Route path="/courses" element={<Courses />} />
             <Route path="/courses/:id" element={<CourseDetail />} />

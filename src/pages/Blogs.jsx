@@ -15,7 +15,7 @@ const Blogs = () => {
         <BookOpen className="w-6 h-6 mr-2" />
         <h1 className="text-2xl font-bold">Blogs</h1>
       </div>
-      <button className='float-right mb-4 px-4 py-2 rounded-full bg-blue-600 text-white font-semibold'>Add New Blog</button>
+      <Link to={'/blogform'} className='float-right mb-4 px-4 py-2 rounded-full bg-blue-600 text-white font-semibold'>Add New Blog</Link>
 
       <table className='w-full'>
         <thead>
